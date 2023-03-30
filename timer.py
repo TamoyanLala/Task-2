@@ -10,8 +10,6 @@ def countdown_timer(time_in_seconds):
         time.sleep(1)
     print("Time's up!")
 
-
 time_in_seconds = int(input("Enter the duration of the timer (in seconds): "))
-
 
 countdown_timer(time_in_seconds)
